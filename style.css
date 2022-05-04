@@ -1,0 +1,138 @@
+@keyframes slidein {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+
+
+.gameBoard{
+    background-image: url('https://media.istockphoto.com/photos/background-of-galaxy-and-stars-picture-id1035676256?b=1&k=20&m=1035676256&s=170667a&w=0&h=NOtiiFfDhhUhZgQ4wZmHPXxHvt3RFVD-lTmnWCeyIG4=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border: solid black;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.legend{
+    border: solid blue;
+    border-radius: 22px;
+    margin: 2em;
+    height: 22vh;
+    background-color: black;
+    display: flex;
+
+}
+
+.us{
+    margin: 1em;
+    width: 30px;
+
+}
+.them{
+    margin: 1em;
+    width: 210px;
+}
+
+
+.score{
+    border: solid yellow;
+    border-radius: 22px;
+    margin: 1em;
+    padding: 1em;
+    color: white;
+}
+.ship{
+    height: 120px;
+    margin-top: 20vh;
+    border-radius: 80%;
+}
+.alienContainer{
+    margin: 1em;
+    justify-content: space-around;
+    color: lime;
+    padding: 1em;
+    
+    
+}
+.ufo{
+    height: 90px;
+    width: 80px;
+}
+
+.healthbar{
+    border: solid yellow;
+    color: black;
+    height: 12px;
+    border-width: .2px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 22px;
+
+}
+
+.fifty{
+    background-color: yellow;
+    width: 50%;
+}
+
+.hunnit{
+    background-color: yellow;
+    width: 50%;
+    text-align: right;
+    font-size:8px;
+}
+.blackOut{
+    background-color: black;
+}   
+
+#attackButton{
+   width: 100px;
+   height: 100px;
+
+}
+
+.attackButtonDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.explosion{
+    width: 50px;
+    height: 50px;
+}
+
+/*
+.boomtoggle{
+        width:6vh;
+        z-index: 0;
+        position: absolute;
+        top:10.5em;
+        animation-name: shoot;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+
+}
+.boom{
+    width:6vh;
+    z-index: 0;
+    position: absolute;
+    top:10.5em;
+.ship{
+    height: 6vh;
+    margin-top:7em;
+    z-index: 1;
+    position: absolute;
+@keyframes shoot {
+  from {  transform:translateX(0%);
+  }
+  to {transform:translateX(800%)}
+}
+*/
